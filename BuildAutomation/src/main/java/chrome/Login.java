@@ -34,7 +34,7 @@ public class Login {
 		}
 		
 
-		//open leaftaps.com
+		//open leaftaps.com using webdriver
 		driver.get("http://leaftaps.com/opentaps");
 		driver.findElementById("username").sendKeys("DemoSalesManager");
 		driver.findElementById("password").sendKeys("crmsfa");
