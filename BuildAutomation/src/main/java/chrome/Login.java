@@ -32,8 +32,9 @@ public class Login {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
+		
 
-
+		//open leaftaps.com
 		driver.get("http://leaftaps.com/opentaps");
 		driver.findElementById("username").sendKeys("DemoSalesManager");
 		driver.findElementById("password").sendKeys("crmsfa");
